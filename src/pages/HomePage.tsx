@@ -42,14 +42,13 @@ const HomePage = () => {
       color: 'bg-purple-500'
     },
     { 
-      icon: Briefcase, 
-      title: 'Apply for Jobs', 
-      description: 'Find healthcare careers',
-      path: '/jobs',
+      icon: Pill, 
+      title: 'Drugs', 
+      description: 'Browse all available drugs',
+      path: '/drugs',
       color: 'bg-orange-500'
     },
   ];
-
   const highlights = [
     { icon: Stethoscope, title: 'Featured Diseases', count: '50+', path: '/diseases' },
     { icon: Pill, title: 'Popular Drugs', count: '100+', path: '/drugs' },
